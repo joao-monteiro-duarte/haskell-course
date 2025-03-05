@@ -9,15 +9,12 @@ Solve this homework after completing and checking the "Maze" one.
 We're going to build on top of the "Maze" challenge by coding a similar
 but a bit more complicated game.
 
-It works the same as the "Maze" game, with the difference that the player
-is now in a forest. Because we're in a forest, there are no walls. And,
-if you walk long enough, you're guaranteed to find the exit.
-
-So, what's the challenge in playing this game? The challenge lies in that
-now we have "stamina." Stamina is a number (we start with 10). And, each
-time the player makes a move, its stamina gets reduced by the amount of work
-needed to cross the current trail (represented by a number contained in the
-value constructor).
+Now, you're in a pine forest. There's a fire, the wind is strong and you
+must escape alive! Although there aren't any walls, you get more tired 
+depending on the location (the soil and the tree density changes making
+you get more tired to travel the same distance). The problem is: the fire
+doesn't slow down and you must keep the pace! You're stamina starts at 10
+and you lose it by crossing specific locations of this forest.
 
 The data types and functions are pretty much the same, with a few caveats:
 
